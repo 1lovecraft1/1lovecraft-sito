@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1lovecraft.it · Area personale</title>
+<meta name="description" content="Area personale di 1lovecraft.it. Accedi con il tuo account aziendale Microsoft.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  :root{
+    --bg:#0a1014; --ink:#eaf3f1; --muted:#8fa6a2; --acc:#2dd4a7; --acc2:#7c6cf0;
+    --card:rgba(10,16,20,.72); --line:rgba(45,212,167,.28);
+  }
+  *{box-sizing:border-box;margin:0}
+  html,body{height:100%}
+  body{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg) url("background.jpg") center/cover no-repeat fixed;
+    display:flex; flex-direction:column; min-height:100vh;
+  }
+  body::before{content:"";position:fixed;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(10,16,20,.15),rgba(10,16,20,.72));pointer-events:none}
+  header,main,footer{position:relative;z-index:1}
+  header{display:flex;align-items:center;gap:.6rem;padding:20px 28px;font-weight:600;letter-spacing:-.2px}
+  header svg{width:30px;height:30px}
+  header span b{color:var(--acc);font-weight:600}
+  main{flex:1;display:grid;place-items:center;padding:24px 16px}
+  .card{
+    width:100%;max-width:440px;padding:40px 36px 32px;text-align:center;
+    background:var(--card);border:1px solid var(--line);border-radius:18px;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    box-shadow:0 20px 60px rgba(0,0,0,.55),0 0 80px rgba(45,212,167,.08);
+  }
+  .eye{width:132px;height:132px;margin:0 auto 18px;display:block;filter:drop-shadow(0 0 18px rgba(45,212,167,.35))}
+  .pupil{transform-origin:60px 60px;animation:look 7s ease-in-out infinite}
+  @keyframes look{0%,100%{transform:translateX(0) scaleX(1)}30%{transform:translateX(-3px) scaleX(.92)}65%{transform:translateX(3px) scaleX(1.05)}}
+  .ring{transform-origin:60px 60px;animation:spin 60s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  h1{font-size:1.9rem;letter-spacing:-.5px;font-weight:650}
+  h1 b{color:var(--acc);font-weight:650}
+  .sub{margin:8px 0 28px;color:var(--muted);font-size:.98rem}
+  .btn{
+    display:flex;align-items:center;justify-content:center;gap:.7rem;width:100%;
+    padding:14px 18px;border-radius:10px;border:1px solid transparent;
+    font-size:1rem;font-weight:600;text-decoration:none;cursor:pointer;
+    background:linear-gradient(135deg,#1fb98f,#2dd4a7);color:#04201a;
+    transition:transform .15s,box-shadow .15s,filter .15s;
+  }
+  .btn:hover{transform:translateY(-1px);box-shadow:0 8px 26px rgba(45,212,167,.35);filter:brightness(1.05)}
+  .btn:focus-visible,.link:focus-visible{outline:3px solid #fff;outline-offset:3px}
+  .ms{width:20px;height:20px;display:grid;grid-template:1fr 1fr/1fr 1fr;gap:2px}
+  .ms i{display:block}
+  .ms i:nth-child(1){background:#f25022}.ms i:nth-child(2){background:#7fba00}
+  .ms i:nth-child(3){background:#00a4ef}.ms i:nth-child(4){background:#ffb900}
+  .links{display:flex;gap:10px;margin-top:14px}
+  .link{
+    flex:1;padding:11px 8px;border-radius:10px;border:1px solid var(--line);
+    color:var(--ink);text-decoration:none;font-size:.9rem;background:rgba(255,255,255,.03);
+    transition:background .15s,border-color .15s;
+  }
+  .link:hover{background:rgba(45,212,167,.1);border-color:var(--acc)}
+  .note{margin-top:22px;font-size:.82rem;color:var(--muted);line-height:1.5}
+  footer{padding:16px;text-align:center;font-size:.8rem;color:var(--muted)}
+  @media (max-width:480px){.card{padding:32px 22px 26px}.links{flex-direction:column}h1{font-size:1.65rem}}
+  @media (prefers-reduced-motion:reduce){.pupil,.ring{animation:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M10 60 Q60 14 110 60 Q60 106 10 60Z" fill="none" stroke="#2dd4a7" stroke-width="7" stroke-linejoin="round"/><ellipse cx="60" cy="60" rx="8" ry="24" fill="#2dd4a7"/></svg>
+  <span>1lovecraft<b>.it</b></span>
+</header>
+
+<main>
+  <section class="card" aria-labelledby="titolo">
+    <svg class="eye" viewBox="0 0 120 120" role="img" aria-label="Occhio stilizzato, logo di 1lovecraft.it">
+      <g class="ring"><circle cx="60" cy="60" r="56" fill="none" stroke="#2dd4a7" stroke-width="1.5" stroke-dasharray="2 6" opacity=".5"/></g>
+      <circle cx="60" cy="60" r="48" fill="none" stroke="#2dd4a7" stroke-width="2" opacity=".5"/>
+      <path d="M8 60 Q60 10 112 60 Q60 110 8 60Z" fill="none" stroke="#2dd4a7" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="60" cy="60" r="22" fill="none" stroke="#2dd4a7" stroke-width="2" opacity=".75"/>
+      <circle cx="60" cy="60" r="15" fill="none" stroke="#7c6cf0" stroke-width="1.5" opacity=".7"/>
+      <ellipse class="pupil" cx="60" cy="60" rx="5.5" ry="20" fill="#2dd4a7"/>
+    </svg>
+    <h1 id="titolo">1lovecraft<b>.it</b></h1>
+    <p class="sub">Area personale riservata</p>
+
+    <a class="btn" href="https://myapplications.microsoft.com/?whr=1lovecraft.it">
+      <span class="ms" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      Accedi con Microsoft
+    </a>
+
+    <div class="links">
+      <a class="link" href="https://outlook.office.com/mail/">Posta</a>
+      <a class="link" href="https://www.office.com/">Microsoft 365</a>
+    </div>
+
+    <p class="note">Usa il tuo account <strong>nome@1lovecraft.it</strong>.<br>Accesso riservato agli utenti di 1lovecraft.it.</p>
+  </section>
+</main>
+
+<footer>© <span id="y">2026</span> 1lovecraft.it</footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
