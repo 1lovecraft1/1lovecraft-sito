@@ -447,6 +447,20 @@ a { color: inherit; }
   color: var(--pergamena-3);
 }
 .piede p { margin: 0; }
+.piede-legale {
+  flex-basis: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding-top: 14px;
+  margin-top: 4px;
+  border-top: 1px solid rgba(194, 160, 102, 0.14);
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--pergamena-3);
+}
+.piede-legale span { max-width: 62em; }
+.piede-legale svg { width: 16px; height: 16px; flex: none; margin-top: 1px; color: var(--ottone); }
 
 /* Ingresso orchestrato (solo con JavaScript attivo) */
 .js .appare {
