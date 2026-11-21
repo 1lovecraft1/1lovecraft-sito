@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 512 512">
+<title>1lovecraft.it</title>
+<rect width="512" height="512" fill="#061a1f"/>
+<circle cx="256" cy="256" r="196" fill="none" stroke="#c2a066" stroke-opacity="0.6" stroke-width="5"/>
+<circle cx="256" cy="256" r="174" fill="none" stroke="#c2a066" stroke-opacity="0.3" stroke-width="3"/>
+<path d="M76 256C152 148 360 148 436 256C360 364 152 364 76 256Z" fill="#0a2a30" stroke="#e9e1cc" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="256" cy="256" r="82" fill="#3b2f9e"/>
+<circle cx="256" cy="256" r="70" fill="#3fe0b5"/>
+<circle cx="256" cy="256" r="40" fill="#8ff0d3"/>
+<ellipse cx="256" cy="256" rx="17" ry="64" fill="#010407"/>
+<ellipse cx="222" cy="218" rx="17" ry="10" fill="#ffffff" fill-opacity="0.65"/>
+</svg>
